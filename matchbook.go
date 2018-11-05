@@ -22,6 +22,7 @@ var connectionEndpoints = map[string][]string{
 type Config struct {
 	Username string `json:"username"`
 	Password string `json:"password"`
+	version		= "0.1"
 }
 
 type Session struct {
